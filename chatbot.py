@@ -111,10 +111,10 @@ else:
 
 # Clearing Chat History 
 def clearHistory():
-    with open('history.txt', 'w') as file:
+    with open('user_history.txt', 'w') as file:
         pass  
 
-    with open('reply.txt', 'w') as file:
+    with open('bot_history.txt', 'w') as file:
         pass
 
 
