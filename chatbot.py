@@ -7,9 +7,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import random
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 @st.cache_data()
 def load_data(text, sep, header):
